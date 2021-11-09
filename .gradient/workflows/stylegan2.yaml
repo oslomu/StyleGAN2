@@ -35,6 +35,7 @@ jobs:
         apt install -y sudo
         apt install -y wget
         apt install -y npm
+        apt install -y lt
         curl -fsSL https://code-server.dev/install.sh | sh -s -- --dry-run
         curl -fsSL https://code-server.dev/install.sh | sh
         timeout 2s code-server
